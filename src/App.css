@@ -1,0 +1,49 @@
+.app{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../fondo1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  max-width: 50%;
+  min-height: 80px;
+  background-color: #eeeeee7d;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.app__h1{
+  max-width: 400px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__btn{
+  min-width: 8em;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.33s ease;
+}
+
+
+.app__btn:hover{
+  transform: scale(1.1);
+}
+
